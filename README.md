@@ -58,12 +58,15 @@
 <meta name="browsermode" content="application">
 
 <!-- Disable night mode for this page  -->
-<meta name="nightmode" content="disable">
+<meta name="nightmode" content="enable/disable">
+
+<!-- Fitscreen  -->
+<meta name="viewport" content="uc-fitscreen=yes"/>
 
 <!-- Layout mode -->
-<meta name="layoutmode" content="fitscreen">
+<meta name="layoutmode" content="fitscreen/standard">
 
-<!-- Force show image even in text only mode  -->
+<!-- imagemode - show image even in text only mode  -->
 <meta name="imagemode" content="force">
 
 <!-- Orientation  -->
@@ -93,12 +96,16 @@
 <link href="icon-192x192.png" rel="icon" sizes="192x192">
 <link href="icon-128x128.png" rel="icon" sizes="128x128">
 
+<!-- Others -->
 <link href="favicon.icon" rel="shortcut icon" type="image/x-icon">
+
+<!-- UC Browser  -->
+<link href="images/icon-52x52.png" rel ="apple-touch-icon-precomposed" sizes="57x57">
+<link href="images/icon-72x72.png" rel ="apple-touch-icon" sizes="72x72">
 
 <!-- Manifest.json  -->
 <link href="/manifest.json" rel="manifest">
 ```
-
 
 ### Manifest
 ```json
