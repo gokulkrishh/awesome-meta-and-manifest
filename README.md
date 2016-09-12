@@ -2,7 +2,7 @@
 
 > Awesome collection of meta tags and manifest.json properties available for building progressive web applications.
 
-### Browsers
+### Browsers Support
 
 #### Desktop
 
@@ -18,6 +18,7 @@
  - Firefox
  - Opera
  - Safari
+ - UC Browser (partial support like fullscreen control etc,)
 
 ### Meta Tags
 
