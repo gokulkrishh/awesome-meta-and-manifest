@@ -1,2 +1,3 @@
-# meta-and-manifest-pwa
-A collection of meta tags and manifest.json properties available.
+# Awesome Meta Tag & Manifest
+
+> A collection of meta tags and manifest.json properties available for building progressive web application
