@@ -1,8 +1,8 @@
 # Awesome Meta Tags & Manifest Properties [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A collection of meta tags and manifest.json properties available for building progressive web applications.
+> Awesome collection of meta tags and manifest.json properties available for building progressive web applications.
 
-### Browsers
+### Browsers Support
 
 #### Desktop
 
@@ -18,6 +18,7 @@
  - Firefox
  - Opera
  - Safari
+ - UC Browser (partial support like fullscreen control etc,)
 
 ### Meta Tags
 
