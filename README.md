@@ -163,9 +163,18 @@
 
 ### Issues and fixes
 
+
+#### Android
+
+- Icons for manifest.json, doesn't need to have many icons. Adding ```512px```, ```256px``` is scaling perfectly for most of the devices.
+
 #### iOS
 
 - In safari mobile browser, add to home screen will add black background for icon if its in PNG format. Make it as JPG to work.
+
+#### UC Browser
+
+- Meta tag ```browsermode``` is not working in UC Browser.
 
 ### Tools
 
