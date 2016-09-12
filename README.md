@@ -148,7 +148,7 @@
 
 - [Manifest Validator](https://manifest-validator.appspot.com)
 
-- [Add To Home Ccon Generator](https://romannurik.github.io/AndroidAssetStudio/index.html)
+- [Add To Home Icon Generator](https://romannurik.github.io/AndroidAssetStudio/index.html)
 
 - [Icon Size Generator](http://realfavicongenerator.net/)
 
