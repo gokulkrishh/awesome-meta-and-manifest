@@ -176,6 +176,8 @@
 
 - Meta tag ```browsermode``` is not working in UC Browser.
 
+- Link tag ```icon``` for home screen is not working.
+
 ### Tools
 
 - [Manifest Validator](https://manifest-validator.appspot.com)
