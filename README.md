@@ -166,7 +166,7 @@
 
 #### Android
 
-- Icons for manifest.json, doesn't need to have many icons. Adding ```256px```, ```192px``` is scaling perfectly for most of the devices.
+- Icons for manifest.json, doesn't need to have many icons. Adding ```192px``` size icon is scaling perfectly for most of the devices.
 
 #### iOS
 
