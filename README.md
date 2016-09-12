@@ -1,4 +1,4 @@
-# Awesome Meta Tag & Manifest
+# Awesome Meta Tags & Manifest Properties
 
 > A collection of meta tags and manifest.json properties available for building progressive web applications.
 
