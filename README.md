@@ -22,7 +22,7 @@
 ### Meta Tags
 
 ```html
-<!-- Main Meta Tags -->
+<!-- Must -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
@@ -30,17 +30,14 @@
 <meta name="keywords" content="Keywords">
 <title>Page Title</title>
 
-
 <!-- Android  -->
 <meta name="theme-color" content="red">
 <meta name="mobile-web-app-capable" content="yes">
-
 
 <!-- iOS -->
 <meta name="apple-mobile-web-app-title" content="Application Title">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
 
 <!-- Windows  -->
 <meta name="msapplication-navbutton-color" content="red">
@@ -55,7 +52,6 @@
 
 <!-- Tap highlighting  -->
 <meta name="msapplication-tap-highlight" content="no">
-
 
 <!-- UC Mobile Browser  -->
 <meta name="full-screen" content="yes">
@@ -110,11 +106,41 @@
   "name": "app name",
   "short_name": "short name",
   "icons": [{
-    "src": "images/icons/icon.png",
+    "src": "images/icons/icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-96x96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-168x168.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-192x192.png",
     "sizes": "192x192",
     "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-256x256.png",
+    "sizes": "256x256",
+    "type": "image/png"
   }],
-  "gcm_sender_id": "123456",
+  "gcm_sender_id": "",
   "gcm_user_visible_only": true,
   "start_url": "/?utm_source=homescreen",
   "permissions": [
@@ -127,22 +153,11 @@
 }
 ```
 
-### Few issue and fixes
-
-#### Android
-
--
+### Issues and fixes
 
 #### iOS
 
 - In safari mobile browser, add to home screen will add black background for icon if its in PNG format. Make it as JPG to work.
-
-#### Windows
-
--
-
-#### UC Browser
-
 
 ### Tools
 
@@ -164,5 +179,4 @@
 
 - [HEAD](https://github.com/joshbuchea/HEAD)
 
-
-#### MIT Licenced
+#### MIT Licensed
