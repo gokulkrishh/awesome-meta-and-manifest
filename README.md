@@ -101,8 +101,8 @@
 <link href="favicon.icon" rel="shortcut icon" type="image/x-icon">
 
 <!-- UC Browser  -->
-<link href="images/icon-52x52.png" rel ="apple-touch-icon-precomposed" sizes="57x57">
-<link href="images/icon-72x72.png" rel ="apple-touch-icon" sizes="72x72">
+<link href="images/icon-52x52.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+<link href="images/icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
 
 <!-- Manifest.json  -->
 <link href="/manifest.json" rel="manifest">
