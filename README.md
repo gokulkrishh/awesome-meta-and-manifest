@@ -174,7 +174,7 @@
 
 #### UC Browser
 
-- Meta tag ```browsermode``` is not working in UC Browser.
+- Meta tag ```browsermode``` is not working.
 
 - Link tag ```icon``` for home screen is not working.
 
