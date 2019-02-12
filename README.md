@@ -160,7 +160,7 @@
   "permissions": [
     "gcm"
   ],
-  scope: "",
+  "scope": "",
   "orientation": "portrait",
   "display": "standalone",
   "theme_color": "#ffffff",
