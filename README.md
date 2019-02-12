@@ -1,25 +1,25 @@
 # Awesome Meta Tags & Manifest Properties [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 
-> Awesome collection of meta tags and manifest.json properties available for building progressive web applications.
+> Awesome collection of meta tags and manifest properties available for building progressive web applications.
 
-### Browsers Support
+## Browsers Support
 
-#### Desktop
+### Desktop
 
- - Google Chrome
- - Mozilla Firefox
- - Opera
- - Edge
- - Safari
+ - `Google Chrome`
+ - `Mozilla Firefox`
+ - `Opera`
+ - `Edge`
+ - `Safari`
 
-#### Mobile
+### Mobile
 
- - Google Chrome
- - Firefox
- - Opera
- - Safari
- - UC Browser (partial support like fullscreen control etc,)
+ - `Google Chrome`
+ - `Firefox`
+ - `Opera`
+ - `Safari`
+ - `UC Browser` (partial support like fullscreen control etc,)
 
 ### Meta Tags
 
@@ -148,6 +148,11 @@
     "src": "images/icons/icon-256x256.png",
     "sizes": "256x256",
     "type": "image/png"
+  },
+  {
+    "src": "images/icons/icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
   }],
   "gcm_sender_id": "",
   "gcm_user_visible_only": true,
@@ -155,48 +160,47 @@
   "permissions": [
     "gcm"
   ],
-  "orientation": "",
+  scope: "",
+  "orientation": "portrait",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
 }
 ```
 
-### Issues and fixes
+### Some issues in browsers & its fixes
 
-
-#### Android
+#### `Android`
 
 - Icons for manifest.json, doesn't need to have many icons. Adding ```192px``` size icon will scale perfectly for most of the devices.
 
-#### iOS
+#### `iOS`
 
 - In safari mobile browser, add to home screen will add black background for icon if its in PNG format. Make it as JPG to work.
+- Safari doesn't support manifest.json for add to home screen yet.
 
-#### UC Browser
+#### `UC Browser`
 
 - Meta tag ```browsermode``` is not working.
-
 - Link tag ```icon``` for home screen is not working.
 
 ### Tools
 
 - [Manifest Validator](https://manifest-validator.appspot.com)
-
 - [Add To Home Icon Generator](https://romannurik.github.io/AndroidAssetStudio/index.html)
-
 - [Icon Size Generator](http://realfavicongenerator.net/)
 
 ### References
 
 - [Apple Developer Site](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
-
-- [Android](https://developer.chrome.com/multidevice/android/installtohomescreen)
-
+- [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
 - [UC Browser](http://www.uc.cn/download/UCBrowser_U3_API.doc)
+- [Microsoft Internet Explorer](https://github.com/joshbuchea/HEAD#microsoft-internet-explorer)
+- [PWACompat](https://github.com/GoogleChromeLabs/pwacompat) - to add support for splash screen in any device.
 
-- [Microsoft Internet Explorer](https://github.com/joshbuchea/HEAD#microsoft-internet-explorer )
+#### Contributions
 
-- [HEAD](https://github.com/joshbuchea/HEAD)
+- If you wish to contribute to this repository, fork it and send a PR 😬 with awesome links.
+- And, if you like the repo, 🌟 it.
 
-#### MIT Licensed
+##### MIT Licensed
