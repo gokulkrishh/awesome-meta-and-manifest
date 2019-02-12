@@ -19,7 +19,8 @@
  - `Firefox`
  - `Opera`
  - `Safari`
- - `UC Browser` (partial support like fullscreen control etc,)
+ - `Samsung Internet Browser`
+ - `UC Browser` (partial support)
 
 ### Meta Tags
 
