@@ -201,7 +201,7 @@
 
 #### Contributions
 
-- If you wish to contribute to this repository, fork it and send a PR 😬 with awesome links.
+- If you wish to contribute to this repository, fork it and send a PR 😬.
 - And, if you like the repo, 🌟 it.
 
 ##### MIT Licensed
