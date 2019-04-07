@@ -174,6 +174,7 @@
 #### `Android`
 
 - Icons for manifest.json, doesn't need to have many icons. Adding ```192px``` size icon will scale perfectly for most of the devices.
+- ```gcm_user_visible_only``` key removed in [Chrome 45](https://www.chromestatus.com/feature/5778950739460096) favor of the specified solution: [```userVisibleOnly```](https://developer.mozilla.org/en-US/docs/Web/API/PushManager/subscribe). 
 
 #### `iOS`
 
